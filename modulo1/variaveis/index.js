@@ -58,6 +58,5 @@
 //------------
 // let numero1 = prompt("Insira um valor")
 // let numero2 = prompt("Insira um valor")
-// console.log("O primeiro número somado ao segundo número resulta em:",numero1+numero2)
-// console.log("O primeiro número multiplicado pelo segundo número resulta em:",numero1*numero2)
-// // //A Soma não é realizada, somente a únião dos dois valores e a multiplicação é compreendida e executada corretamente.
+// console.log("O primeiro número somado ao segundo número resulta em:",Number(numero1)+ Number(numero2))
+// console.log("O primeiro número multiplicado pelo segundo número resulta em:",Number(numero1)*Number(numero2))
