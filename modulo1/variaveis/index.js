@@ -1,3 +1,6 @@
+//------------------------------------------------------------------------------------
+// Aula de JavaScript - Bruno de Salles M.
+//------------------------------------------------------------------------------------
 let a = 10
 let b = 10
 console.log(b)
@@ -60,6 +63,6 @@ let numero1 = Number(prompt("Insira um valor"))
 let numero2 = Number(prompt("Insira um valor"))
 console.log("O primeiro número somado ao segundo número resulta em:",numero1+ numero2)
 console.log("O primeiro número multiplicado pelo segundo número resulta em:",numero1*numero2)
-//*Outra forma* ----------------------------------------------------------------------
+//------------------------*Outra forma*-----------------------------------------------
 alert (`O primeiro número somado ao segundo número resulta em:${numero1+numero2}`) 
 alert (`O primeiro número multiplicado pelo segundo número resulta em${numero1*numero2}`)
