@@ -77,3 +77,33 @@
 // console.log("a temperatura em Fahrenheit é",FahrenHeit)
 // const kelVin = ((FahrenHeit)-32)*(5/9)+273.15
 // console.log("a temperatura em Kelvin é",kelVin)
+
+// Desafio 2
+
+// const valorQuilowatt = 0.05
+// const consumoQuilowatt = 280
+// const mes = 30
+// const dia = 24
+// const desconto = 15/100
+// console.log ("O valor gasto por dia é R$",(valorQuilowatt*consumoQuilowatt*dia))
+// console.log ("O valor consumido após 30 dias é R$",(valorQuilowatt*consumoQuilowatt*dia*mes))
+// let consumoExtra = Number(prompt("Consumo dia por mês"))
+// console.log ("o valor gasto a mais no mes foi de R$",(valorQuilowatt*consumoExtra*dia*mes))
+// console.log ("o valor final com desconto foi de R$",(valorQuilowatt*consumoExtra*dia*mes)*desconto)
+
+// Desafio 3
+
+// const oz = 3.527
+// const lb = 2.205
+// const m = 1609
+// const ft = 3.281
+// const gal = 379
+// const xic = 3.52
+// console.log ("20 libras equivalem a",(20/lb),("kilos"))
+// console.log ("10.5 onça equivalem a",(10.5/oz),("kilos"))
+// console.log ("100 milhas equivale a",(100*m),("metros"))
+// console.log("50 pés equivalem a ",(50/ft),("metros"))
+// console.log("103.56 galões equivalem a",(103.56*gal),("litros"))
+// console.log("450 xicaras equivale a",(450/xic),("litros"))
+// let pesoKilo = Number(prompt("Qual o peso em libra da compra"))
+// console.log ("O peso da compra em kilos é ",(pesoKilo/lb),("kilos"))
