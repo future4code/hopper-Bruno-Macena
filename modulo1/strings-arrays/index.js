@@ -1,3 +1,6 @@
+//Exercício de segunda feira 14/02 Bruno de S. M.
+//Exemplos de fixação
+
 // let array
 // console.log('a. ', array)
 
@@ -34,11 +37,38 @@
 
 // Exercício 2
 
-// const comidasFavoritas = ["Lasanha", "Strogonoff", "Pizza", "Espinafre", "Macarronada"]
-// // console.log(comidasFavoritas)
-// // console.log("Essas são as minhas comidas preferidas" ,)
-// const favoriteFood = prompt("Qual o seu prato predileto ?")
-// favoriteFood = comidasFavoritas.splice(2, 1)
-// console.log(favoriteFood)
+//const comidasFavoritas = ["Lasanha", "Strogonoff", "Pizza", "Espinafre", "Macarronada"]
+// console.log(comidasFavoritas)
+// console.log(`Essas são as minhas comidas preferidas ${comidasFavoritas[0]},
+// ${comidasFavoritas[1]},
+// ${comidasFavoritas[2]},
+// ${comidasFavoritas[3]},  
+// ${comidasFavoritas[4]}`)
+// let pergunta = prompt("Qual o seu prato predileto ?")
+// comidasFavoritas.splice(1,1,pergunta)
+// console.log (comidasFavoritas)
 
+// Exercício 3
 
+// const listaDETarefas = []
+// let primeiraTarefa = prompt("Qual a primeira tarefa ?")
+// let segundaTarefa = prompt("Qual a segunda tarefa ?")
+// let terceiraTarefa = prompt("Qual a terceira tarefa ?")
+// listaDETarefas[0] = primeiraTarefa
+// listaDETarefas[1] = segundaTarefa
+// listaDETarefas[2] = terceiraTarefa
+// console.log (listaDETarefas)
+// let qualTarefa = Number(prompt("Qual das 3 tarefas de 1 a 3 você já realizou ?"))
+// listaDETarefas.splice((qualTarefa-1), 1)
+// console.log(`Faltam as tarefas ${listaDETarefas}`)
+
+// Desafio 1
+
+// let frase1 = "Tenho algumas dificuldades em alguns exercicios"
+// let texto02 = [frase1.split(" ")]
+// console.log(texto02)
+
+// Desafio 2
+
+// const frutas = ["Banana", "Morango", "Abacaxi", "Laranja", "Ameixa"]
+// console.log(frutas.indexOf("Abacaxi"), frutas.length)
