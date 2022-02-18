@@ -132,9 +132,21 @@ function checaRenovacaoRG() {
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
+  let divisaoPor4 = ano % 4 === 0;
+  let naoDivisivel100 = ano % 100 !== 0;
+  let divisivelPor400 = ano % 400 === 0;
+
+  return (divisaoPor4 && naoDivisivel100) || divisivelPor400;
 }
 
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
+const validacaoIdade = prompt("Já tem mais de 18 anos ?")
+const validacaoEnsino = prompt("Já concluiu o ensino médio ?")
+const validacaoHoraio = prompt("Você possui disponibilidade de horario ?")
+const sim = "sim"
+console.log((validacaoIdade == sim) && (validacaoEnsino == sim) && (validacaoHoraio == sim))
+
+
 }
