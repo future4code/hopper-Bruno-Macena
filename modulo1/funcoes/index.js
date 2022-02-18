@@ -83,21 +83,22 @@
 
 // Desafio 1 a
 
-    //  const dados = (nome) =>{
-    //     console.log(`Eu sou ${nome}`)
-    //   }
+//  const dados = (nome) =>{
+//    const resultado = nome
+//     return resultado
+//    }
         
-    // dados("Bruno")
+//  const text = "a soma é "
+
 
 // Desafio 1 b
 
 
-// const soma = (valor1 , valor2) =>{
-//  console.log (valor1 + valor2)
-// }
-//  soma(2,2)
-
-
+//  const soma = (valor1 , valor2) =>{
+//  return (valor1 + valor2)
+//  }
+// const resultSoma = dados(text) + soma(10 , 20)
+// console.log(resultSoma)
 
  // Desafio 2
 
