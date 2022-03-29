@@ -38,12 +38,17 @@ div img {
 }
 
 .botao-amarelo {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
     background-color: #ffaf43;
     width: 250px;
     height: 40px;
     border-radius: 5px;
     font-size: 20px;
     color: white;
+    
+    
 }
 
 .botao-amarelo:hover {
@@ -69,6 +74,7 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    padding-top: 100px;
 }
 
 #container-de-descricao>ol {
@@ -83,6 +89,8 @@ div img {
     color: #c44f00;
     padding: 100px 0;
     font-size: 60px;
+    display: block;
+    
 }
 
 
