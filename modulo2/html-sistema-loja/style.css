@@ -1,0 +1,30 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: content-box;
+}
+header{
+width: 100%;
+background-color: #561782;
+color:gold;
+text-align: center;
+}
+section{    
+    width: 100%;
+    color: white;
+    text-align: center;  
+}
+footer{
+position:absolute;
+bottom: 0px;
+width: 100%;
+background-color : #561782;
+color: gold;
+text-align: center;
+}
+body{
+    background-color: black;
+}
+h3{
+    text-align: left;
+}
