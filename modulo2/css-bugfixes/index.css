@@ -26,6 +26,10 @@ input {
 
 }
 
+input:hover{
+    opacity: 40%;
+}
+
 button:focus {
     color: white;
 }
