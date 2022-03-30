@@ -64,6 +64,7 @@ div img {
 
 .icone {
     height: 15px;
+    width: 15px;
 }
 
 
@@ -121,6 +122,9 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+}
+td button:hover{
+    background-color: gold;
 }
 
 .container-do-search {
