@@ -58,6 +58,7 @@ div img {
 .container {
     height: 500px;
     text-align: center;
+ 
 }
 
 .icone {
@@ -72,14 +73,17 @@ div img {
   **/
 
 #container-de-descricao {
-    background-color: #2274a5;
+     background-color: #2274a5;
     color: white;
-    padding-top: 50px;
+    padding-top: 40px;
+    
+    
+    
 }
 
 #container-de-descricao>ol {
     padding: 15px 0px;
-}
+    }
 
 #container-para-comprar {
     background-color: #e7eb90;
