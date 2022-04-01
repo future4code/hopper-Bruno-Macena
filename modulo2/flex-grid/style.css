@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    background-color: mediumvioletred;
+    display: flex;
+    justify-content: space-between;   
+    flex-direction: row; 
+    padding:0 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;      
+}
+
+button{
+    margin-right: 20px;
+    align-self: center;
+    height: 30px;
+    width: 60px;
+}
+
+.menu{
+    background-color: #f2d0e0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.botao-menu{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+main{
+display: flex;
+flex-direction: row;
+
+
+
+}
+
+
+
+
+footer{
+    display: flex;
+    background-color: mediumvioletred;
+    justify-content: center;
+    height: 60px;
+    padding:0 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imagem{
+width:30px;
+height:30px;
+}
+
