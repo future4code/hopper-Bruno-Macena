@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+
+    background-color:#1fddff;
+    display: flex;
+    justify-content:center;   
+    flex-direction: row; 
+    padding:0 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    }
+
+.menu{
+    background-color:#64b3f4;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.lista-menu{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.Cursos{
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    background-color:#5614B0;
+    }
+footer{
+    display: flex;
+    background-color:#1fddff;
+    justify-content: center;
+    height: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.logo-reference{
+    display: flex;
+    width:100%;
+    height:40%;
+    border: 1px solid;
+    margin: 5px;    
+    box-shadow: 1px 1px 3px;
+    
+}
+.logo{
+width:30px;
+height:30px;
+
+}
+.logo-labenu{
+    width:50px;
+    height:30px;
+    border-radius: 50%;
+    border: 2px;
+    margin: 1px;
+}
