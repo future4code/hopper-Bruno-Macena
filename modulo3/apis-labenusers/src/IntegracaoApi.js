@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import axios from 'axios';
+
 
 class integracaoApi extends React.Component {
     state = {
@@ -33,7 +34,7 @@ class integracaoApi extends React.Component {
     criarCadastro = () => {
         const body = {
             name:this.state.inputCadastro,
-            "email": ""
+            
         }
         axios.post('https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users', body, {
             headers: {
