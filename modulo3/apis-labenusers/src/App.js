@@ -1,22 +1,35 @@
 import React from 'react';
 import axios from 'axios';
+import TelaCadastro from './components/TelaCadastro';
+import TelaLista from './components/TelaLista';
 
-export default function App() {
-  const solicitaDados = () => {
-    axios.get('https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users', {
-      headers: {
-        Authorization: 'bruno-macena-hopper'
-      }
-    }).then((response) => {
-      console.log(response.data)
-    })
-  }
-  return (
-    <div className='App'>
-      <h1> Teste </h1>
-      <input placeholder="Nome"/>
-      <input placeholder="Email"/>
-      <button onClick={solicitaDados}>Buscar dados</button>
-    </div>
-  );
+
+class App extends React.Component {
+  state = {
+  telaAtual: "cadastro"
+    
 }
+
+  trocardeTela = () => {
+    this.setState({
+      telaAtual: this.state.telaAtual === "cadastro"
+      ? "lista"
+        : "cadastro"
+      })
+  }
+
+
+  render() {
+    return (
+      <div> 
+        {
+          this.state.telaAtual === "cadastro"
+            ? <TelaCadastro filhoUm={this.trocardeTela} />
+            : <TelaLista filhoDois={this.trocardeTela} />
+        }
+      </div>
+    )
+  }
+}
+
+export default App;
