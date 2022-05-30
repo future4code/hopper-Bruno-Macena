@@ -1,32 +1,27 @@
 import React from 'react';
-import axios from 'axios';
-import AddTrack from './components/AddPlaylist';
 import AddPlaylist from './components/AddPlaylist';
-import styledComponents from 'styled-components';
-
+import ViewPlaylist from './components/ViewPlaylist'
 
 class App extends React.Component {
   state = {
-  telaAtual: "cadastro"
-
+    PageState: "Cadastro Playlist"
 }
 
-  VisualizarPlaylist = () => {
+VisualizarPlaylist = () => {
     this.setState({
-      telaAtual: this.state.telaAtual === "cadastro"
+      PageState: this.state.PageState === "Cadastro Playlist"
       ? "lista"
-        : "cadastro"
+        : "Cadastro Playlist"
       })
   }
-
 
   render() {
     return (
       <div> 
         {
-          this.state.telaAtual === "cadastro"
-            ? <AddTrack filhoUm={this.VisualizarPlaylist} />
-            : <AddPlaylist filhoDois={this.VisualizarPlaylist} />
+          this.state.PageState === "Cadastro Playlist"
+            ? < AddPlaylist mainOne ={this.VisualizarPlaylist}/>
+            : < ViewPlaylist mainTwo ={this.VisualizarPlaylist}/>
         }
       </div>
     )

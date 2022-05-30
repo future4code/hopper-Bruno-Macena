@@ -1,12 +1,13 @@
 import React from "react";
 import axios from 'axios';
+
 export default class AddPlaylist extends React.Component{
 
     state = {
         nome: ""
     }
 
-    VisualizarNovaPlaylist = (event) => {
+    VisualizarPlaylist = (event) => {
         this.setState({nome: event.target.value})
     }
 
@@ -21,7 +22,7 @@ export default class AddPlaylist extends React.Component{
             }
         }).then(() => {
             alert("Playlist criada com sucesso.")
-        }).catch((err) => {
+        }).catch(() => {
             alert("Tente novamente")
         }).finally(() => {
             this.setState({nome: ""})
@@ -31,10 +32,10 @@ export default class AddPlaylist extends React.Component{
     render() {
         return (
             <div>
-                <button onClick={this.props.filhoUm}> VisualizarPlaylist</button>
-                <h2>AddPlaylist</h2>
-                <input placeholder="nome" value={this.state.nome} onChange={this.VisualizarNovaPlaylist}/>
-                <button onClick={this.cadastrarPlaylist}>Add</button>
+                <button onClick={this.props.mainOne}> VisualizarPlaylist</button>
+                <h2>Adicionar Playlist</h2>
+                <input placeholder="Criar Nova Playlist" value={this.state.nome} onChange={this.VisualizarPlaylist}/>
+                <button onClick={this.cadastrarPlaylist}>Adicionar</button>
                 </div>
         )
 
