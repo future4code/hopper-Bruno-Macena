@@ -3,16 +3,15 @@ import styled from "styled-components"
 
 const IconeContainer = styled.div`
 	display: flex;
-
 	img {
 		margin-right: 5px;
 	}
 `
 
-function IconeComContador(iconeCurtida) {
+function IconeComContador(props) {
 	return <IconeContainer>
-		<img alt={'Icone'} src={iconeCurtida.icone} onClick={iconeCurtida.onClickIcone}/>
-		<p>{iconeCurtida.valorContador}</p>
+		<img alt={'Icone'} src={props.icone} onClick={props.onClickIcone}/>
+		<p>{props.valorContador}</p>
 	</IconeContainer>
 }
 
