@@ -1,36 +1,40 @@
-import { useEffect, useState } from "react";
-import configProject from './components/config-project';
-import axios from 'axios';
-
-export default function App() {
-
-  // const [perfil, setPerfil] = useState("");
-  // const [telainicial, setTelaInicial] = useState("");
-
-  // useEffect(() => {
-
-  //   mostrarPerfil();
-  // }, []);
-
-  // const mostrarPerfil = async () => {
-  //   try {
-  //     const response = await configProject.get("person");
-  //     setTelaInicial(response);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // }
-
-    
+import { useState } from "react";
+import Home from "./components/Home"
+import Match from "./components/Match";
 
 
-  function App() {
-    return (
-      <div className="App">
-        <button>Mach</button>
-        <button>No Mach</button>
-        <button>Reset</button>
-      </div>
-    );
+function App() {
+  const [page, setPage] = useState('choose')
+
+
+  const changePage = () => {
+    if (page === 'choose') {
+    return <Home
+    matchPage={pageMatch}
+    />
+
+    } else if (page === 'matches') {
+      return <Match
+      choosePage={pageChoose}
+      />
+    }
+  } 
+
+  const pageMatch = () => {
+    setPage('match')
   }
+
+  const pageChoose = () => {
+    setPage('choose')
+  }
+  
+
+  return (
+    <div>
+      
+    {changePage()}
+    </div>
+  );
 }
+
+export default App;
