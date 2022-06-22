@@ -4,10 +4,10 @@ const HomePage = () => {
   const navigate = useNavigate();
   return (
     <>
-      <h1><u>HomePage</u></h1>
+    <h1><u>HomePage</u></h1>
       
-      <button onClick={() => navigate("/ListTripsPage")}>Ver todas as viagens</button> 
-      <button onClick={() => navigate("/LoginPage")}>Área Administrativa</button> 
+    <button onClick={() => navigate("/trips/list")}>Ver todas as viagens</button> 
+    <button onClick={() => navigate("/login")}>Área Administrativa</button> 
     </>
   );
 };
