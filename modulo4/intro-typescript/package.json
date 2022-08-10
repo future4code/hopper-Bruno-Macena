@@ -1,0 +1,23 @@
+{
+  "name": "intro-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./build/index.js",
+    "exe1": "tsc && node ./build/Exercicio1.js",
+    "exe2": "tsc && node ./build/Exercicio2.js",
+    "exe3": "tsc && node ./build/Exercicio3.js",
+    "exe4": "tsc && node ./build/Exercicio4.js",
+    "exe5": "tsc && node ./build/Exercicio5.js"
+  },
+  "keywords": [],
+  "author": "Bruno-Macena",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.5"
+  }
+}
