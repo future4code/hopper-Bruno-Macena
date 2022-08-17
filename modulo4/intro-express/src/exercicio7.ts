@@ -3,7 +3,6 @@ import cors from "cors"
 import { Postman } from "./exercicio6"
 import { Request, Response } from "express"
 
-
 const app = express()
 app.use(express.json())
 app.use(cors())

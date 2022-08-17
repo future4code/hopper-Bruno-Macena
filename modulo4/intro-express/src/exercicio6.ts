@@ -1,10 +1,8 @@
-import { visitLexicalEnvironment } from "typescript";
-
 export const Postman:Post[] = [
     {
         id: 1,
-        title: "body loren",
-        body: "text lorenm medin circle",
+        title: "body lorem",
+        body: "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
         userId: 1
     },
     {
